@@ -1,6 +1,8 @@
 
 import './App.css'
-import StatefulForm from './componentas/SimpleForm/StatefulForm/StatefulForm'
+import HookForm from './componentas/HookForm/HookForm'
+// import RefForm from './componentas/RefForm/RefForm'
+// import StatefulForm from './componentas/SimpleForm/StatefulForm/StatefulForm'
 // import SimpleForm from './componentas/SimpleForm/SimpleForm'
 
 
@@ -12,7 +14,9 @@ function App() {
     
       <h1 className='text-5xl'>Form</h1>
      {/* <SimpleForm></SimpleForm> */}
-     <StatefulForm></StatefulForm>
+     {/* <StatefulForm></StatefulForm> */}
+     {/* <RefForm></RefForm> */}
+     <HookForm></HookForm>
     </>
   )
 }
